@@ -23,9 +23,15 @@ if ($productResult->num_rows > 0) {
         $filteredProducts[] = $row;
     }
 }
+<<<<<<< HEAD
 ////////
 // Проверка, если параметры 2 фильтрации переданы 141111
 /////////
+=======
+//
+// Проверка, если параметры 2 фильтрации переданы 141
+//
+>>>>>>> 79591704ca1b41a8c090eac532d748618c2dee24
 if (isset($_GET['category_id']) || isset($_GET['max_price']) || isset($_GET['search'])) {
     $categoryId = isset($_GET['category_id']) ? $_GET['category_id'] : '';
     $maxPrice = isset($_GET['max_price']) ? $_GET['max_price'] : '';
