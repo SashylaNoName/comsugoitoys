@@ -24,7 +24,7 @@ if ($productResult->num_rows > 0) {
     }
 }
 
-// Проверка, если параметры фильтрации переданы
+// Проверка, если параметры фильтрации переданы 1
 if (isset($_GET['category_id']) || isset($_GET['max_price']) || isset($_GET['search'])) {
     $categoryId = isset($_GET['category_id']) ? $_GET['category_id'] : '';
     $maxPrice = isset($_GET['max_price']) ? $_GET['max_price'] : '';
